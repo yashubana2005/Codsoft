@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+header{
+    background-color: #9b5411;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header .logo img {
+    max-height: 100px; 
+}
+
+header .logo{
+    font-size: 2em;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.hero{
+    background:url(imgs/background.jpg) no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    font-size: 3em;
+    margin: 0;
+}
+.hero p{
+    font-size: 3em;
+}
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 20px;
+}
+
+.gallery {
+    flex: 1 1 300px; 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.gallery img {
+    max-width: 100%;
+    border-radius: 8px; 
+}
+
+.gallery h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.gallery p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.4;
+}
+
+.gallery a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.gallery a:hover {
+    background-color: #45a049;
+}
+
+.about,.contact{
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
